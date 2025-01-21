@@ -1,0 +1,103 @@
+.container{
+    border: 2px solid salmon;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    height: 250px;
+
+
+}
+.box{
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+nav{
+    border: 1px solid black;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: darkgray;
+    border-style: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* border: 1px solid black; */
+}
+.form input{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto 10px;
+    padding: 0 10px;
+    border-radius: 5px;
+    
+}
+.login{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 30px;
+    margin: 10px auto 10px auto;
+    padding: 0 10px;
+    /* background-color: #fff; */
+    /* border-style: none; */
+    border-radius: 5px;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px; ;
+}
+.login:hover{
+    background-color: orange;
+    transition: all 0.3s ease-in-out;
+}
+button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto 10px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: darkgray;
+    border-style: none;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px; ;
+}
+button:hover{
+    background-color: orange;
+    transition: all 0.3s ease-in-out;
+}
